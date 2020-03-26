@@ -1,0 +1,46 @@
+
+
+Componente- Uma função que retorna  HTML
+
+----
+
+JSX = Código HTML integrado dentro do JavaScript
+
+----
+
+Propriedades = Atributos repassados para componentes e não elementos. <Header title={Semana OmniStack 11.0}  Para recuperar essa prop no componente: export default function Header(props) {
+  return (
+    <header>
+      <h1>{props.title}</h1>
+    </header>/> 
+
+    Outra forma de fazer 'e usando o children
+
+    export default function Header({children}) {
+  return (
+    <header>
+      <h1>{children}</h1>
+    </header>
+  )
+}
+
+- 
+
+return (
+    <Header>
+      Semana OmniStack
+    </Header>
+  );
+
+
+-----
+
+Estado = uma informa'cão que sera mantida pelo compoente. Toda vez que ele e alterado, o componente renderiza novamente exibindo as novas informacboes em tela.
+
+
+----
+
+Imutabilidade = Segundo esse conceito, nao podemos manipular o valor de um estado de uma forma direta e sim sobrepor o valor da variavel do estado. 
+
+
+
