@@ -1,0 +1,6 @@
+Diferenças do React e React Native
+1.Não tem semantica. No react, os elementos possuem significado. Já no React Native, não há discriminação entre os elementos.
+2. Estilizacao. No react native não temos class name e sempre precisamos passar uma tag style que recebe um objeto com a estilizacao.
+3. No react native, tudo é display flex
+4. Propriedades no react native são com camel case. Já no react, é usando hifen
+5. herança de estilos não existe no react native, como no react
